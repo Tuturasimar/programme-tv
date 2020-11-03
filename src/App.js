@@ -1,11 +1,17 @@
 import React from "react";
 import "./App.css";
+import Header from "./components/Header";
+import Programme from "./components/Programme";
+import data from "./assets/data.json";
 
 function App() {
   return (
-    <div>
-      Hello from <a href="https://www.lereacteur.io">Le Reacteur !</a>
-    </div>
+    <>
+      <Header></Header>
+      <div className="container">
+        <Programme data={data}></Programme>
+      </div>
+    </>
   );
 }
 

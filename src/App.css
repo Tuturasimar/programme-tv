@@ -1,1 +1,57 @@
 /* Other rules */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+body {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.container {
+  width: 70%;
+  height: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cadre {
+  width: 580px;
+  height: 111px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 15px;
+}
+
+.header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 400px;
+}
+
+.box p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.box li {
+  color: rgb(240, 69, 97);
+}
+
+.line {
+  display: flex;
+  align-items: center;
+}
