@@ -10,7 +10,7 @@ const Programme = ({ data }) => {
           <>
             <div className="cadre">
               <div>{item.time}</div>
-              <img src={`${item.image}`}></img>
+              <img src={`${item.image}`} alt="img"></img>
               <Film
                 key={item.index}
                 title={item.title}
